@@ -1,0 +1,1029 @@
+# 1 "/tmp/compiler-file"
+# 1 "/home/lifu/catkin_ws/src/cmake-build-debug/orbslam_client//"
+# 1 "<built-in>"
+#define __STDC__ 1
+#define __cplusplus 201103L
+#define __STDC_HOSTED__ 1
+#define __GNUC__ 4
+#define __GNUC_MINOR__ 8
+#define __GNUC_PATCHLEVEL__ 4
+#define __VERSION__ "4.8.4"
+#define __ATOMIC_RELAXED 0
+#define __ATOMIC_SEQ_CST 5
+#define __ATOMIC_ACQUIRE 2
+#define __ATOMIC_RELEASE 3
+#define __ATOMIC_ACQ_REL 4
+#define __ATOMIC_CONSUME 1
+#define __FINITE_MATH_ONLY__ 0
+#define _LP64 1
+#define __LP64__ 1
+#define __SIZEOF_INT__ 4
+#define __SIZEOF_LONG__ 8
+#define __SIZEOF_LONG_LONG__ 8
+#define __SIZEOF_SHORT__ 2
+#define __SIZEOF_FLOAT__ 4
+#define __SIZEOF_DOUBLE__ 8
+#define __SIZEOF_LONG_DOUBLE__ 16
+#define __SIZEOF_SIZE_T__ 8
+#define __CHAR_BIT__ 8
+#define __BIGGEST_ALIGNMENT__ 32
+#define __ORDER_LITTLE_ENDIAN__ 1234
+#define __ORDER_BIG_ENDIAN__ 4321
+#define __ORDER_PDP_ENDIAN__ 3412
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __SIZEOF_POINTER__ 8
+#define __GNUG__ 4
+#define __SIZE_TYPE__ long unsigned int
+#define __PTRDIFF_TYPE__ long int
+#define __WCHAR_TYPE__ int
+#define __WINT_TYPE__ unsigned int
+#define __INTMAX_TYPE__ long int
+#define __UINTMAX_TYPE__ long unsigned int
+#define __CHAR16_TYPE__ short unsigned int
+#define __CHAR32_TYPE__ unsigned int
+#define __SIG_ATOMIC_TYPE__ int
+#define __INT8_TYPE__ signed char
+#define __INT16_TYPE__ short int
+#define __INT32_TYPE__ int
+#define __INT64_TYPE__ long int
+#define __UINT8_TYPE__ unsigned char
+#define __UINT16_TYPE__ short unsigned int
+#define __UINT32_TYPE__ unsigned int
+#define __UINT64_TYPE__ long unsigned int
+#define __INT_LEAST8_TYPE__ signed char
+#define __INT_LEAST16_TYPE__ short int
+#define __INT_LEAST32_TYPE__ int
+#define __INT_LEAST64_TYPE__ long int
+#define __UINT_LEAST8_TYPE__ unsigned char
+#define __UINT_LEAST16_TYPE__ short unsigned int
+#define __UINT_LEAST32_TYPE__ unsigned int
+#define __UINT_LEAST64_TYPE__ long unsigned int
+#define __INT_FAST8_TYPE__ signed char
+#define __INT_FAST16_TYPE__ long int
+#define __INT_FAST32_TYPE__ long int
+#define __INT_FAST64_TYPE__ long int
+#define __UINT_FAST8_TYPE__ unsigned char
+#define __UINT_FAST16_TYPE__ long unsigned int
+#define __UINT_FAST32_TYPE__ long unsigned int
+#define __UINT_FAST64_TYPE__ long unsigned int
+#define __INTPTR_TYPE__ long int
+#define __UINTPTR_TYPE__ long unsigned int
+#define __GXX_WEAK__ 1
+#define __DEPRECATED 1
+#define __GXX_RTTI 1
+#define __GXX_EXPERIMENTAL_CXX0X__ 1
+#define __EXCEPTIONS 1
+#define __GXX_ABI_VERSION 1002
+#define __SCHAR_MAX__ 127
+#define __SHRT_MAX__ 32767
+#define __INT_MAX__ 2147483647
+#define __LONG_MAX__ 9223372036854775807L
+#define __LONG_LONG_MAX__ 9223372036854775807LL
+#define __WCHAR_MAX__ 2147483647
+#define __WCHAR_MIN__ (-__WCHAR_MAX__ - 1)
+#define __WINT_MAX__ 4294967295U
+#define __WINT_MIN__ 0U
+#define __PTRDIFF_MAX__ 9223372036854775807L
+#define __SIZE_MAX__ 18446744073709551615UL
+#define __INTMAX_MAX__ 9223372036854775807L
+#define __INTMAX_C(c) c ## L
+#define __UINTMAX_MAX__ 18446744073709551615UL
+#define __UINTMAX_C(c) c ## UL
+#define __SIG_ATOMIC_MAX__ 2147483647
+#define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+#define __INT8_MAX__ 127
+#define __INT16_MAX__ 32767
+#define __INT32_MAX__ 2147483647
+#define __INT64_MAX__ 9223372036854775807L
+#define __UINT8_MAX__ 255
+#define __UINT16_MAX__ 65535
+#define __UINT32_MAX__ 4294967295U
+#define __UINT64_MAX__ 18446744073709551615UL
+#define __INT_LEAST8_MAX__ 127
+#define __INT8_C(c) c
+#define __INT_LEAST16_MAX__ 32767
+#define __INT16_C(c) c
+#define __INT_LEAST32_MAX__ 2147483647
+#define __INT32_C(c) c
+#define __INT_LEAST64_MAX__ 9223372036854775807L
+#define __INT64_C(c) c ## L
+#define __UINT_LEAST8_MAX__ 255
+#define __UINT8_C(c) c
+#define __UINT_LEAST16_MAX__ 65535
+#define __UINT16_C(c) c
+#define __UINT_LEAST32_MAX__ 4294967295U
+#define __UINT32_C(c) c ## U
+#define __UINT_LEAST64_MAX__ 18446744073709551615UL
+#define __UINT64_C(c) c ## UL
+#define __INT_FAST8_MAX__ 127
+#define __INT_FAST16_MAX__ 9223372036854775807L
+#define __INT_FAST32_MAX__ 9223372036854775807L
+#define __INT_FAST64_MAX__ 9223372036854775807L
+#define __UINT_FAST8_MAX__ 255
+#define __UINT_FAST16_MAX__ 18446744073709551615UL
+#define __UINT_FAST32_MAX__ 18446744073709551615UL
+#define __UINT_FAST64_MAX__ 18446744073709551615UL
+#define __INTPTR_MAX__ 9223372036854775807L
+#define __UINTPTR_MAX__ 18446744073709551615UL
+#define __FLT_EVAL_METHOD__ 0
+#define __DEC_EVAL_METHOD__ 2
+#define __FLT_RADIX__ 2
+#define __FLT_MANT_DIG__ 24
+#define __FLT_DIG__ 6
+#define __FLT_MIN_EXP__ (-125)
+#define __FLT_MIN_10_EXP__ (-37)
+#define __FLT_MAX_EXP__ 128
+#define __FLT_MAX_10_EXP__ 38
+#define __FLT_DECIMAL_DIG__ 9
+#define __FLT_MAX__ 3.40282346638528859812e+38F
+#define __FLT_MIN__ 1.17549435082228750797e-38F
+#define __FLT_EPSILON__ 1.19209289550781250000e-7F
+#define __FLT_DENORM_MIN__ 1.40129846432481707092e-45F
+#define __FLT_HAS_DENORM__ 1
+#define __FLT_HAS_INFINITY__ 1
+#define __FLT_HAS_QUIET_NAN__ 1
+#define __FP_FAST_FMAF 1
+#define __DBL_MANT_DIG__ 53
+#define __DBL_DIG__ 15
+#define __DBL_MIN_EXP__ (-1021)
+#define __DBL_MIN_10_EXP__ (-307)
+#define __DBL_MAX_EXP__ 1024
+#define __DBL_MAX_10_EXP__ 308
+#define __DBL_DECIMAL_DIG__ 17
+#define __DBL_MAX__ double(1.79769313486231570815e+308L)
+#define __DBL_MIN__ double(2.22507385850720138309e-308L)
+#define __DBL_EPSILON__ double(2.22044604925031308085e-16L)
+#define __DBL_DENORM_MIN__ double(4.94065645841246544177e-324L)
+#define __DBL_HAS_DENORM__ 1
+#define __DBL_HAS_INFINITY__ 1
+#define __DBL_HAS_QUIET_NAN__ 1
+#define __FP_FAST_FMA 1
+#define __LDBL_MANT_DIG__ 64
+#define __LDBL_DIG__ 18
+#define __LDBL_MIN_EXP__ (-16381)
+#define __LDBL_MIN_10_EXP__ (-4931)
+#define __LDBL_MAX_EXP__ 16384
+#define __LDBL_MAX_10_EXP__ 4932
+#define __DECIMAL_DIG__ 21
+#define __LDBL_MAX__ 1.18973149535723176502e+4932L
+#define __LDBL_MIN__ 3.36210314311209350626e-4932L
+#define __LDBL_EPSILON__ 1.08420217248550443401e-19L
+#define __LDBL_DENORM_MIN__ 3.64519953188247460253e-4951L
+#define __LDBL_HAS_DENORM__ 1
+#define __LDBL_HAS_INFINITY__ 1
+#define __LDBL_HAS_QUIET_NAN__ 1
+#define __DEC32_MANT_DIG__ 7
+#define __DEC32_MIN_EXP__ (-94)
+#define __DEC32_MAX_EXP__ 97
+#define __DEC32_MIN__ 1E-95DF
+#define __DEC32_MAX__ 9.999999E96DF
+#define __DEC32_EPSILON__ 1E-6DF
+#define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+#define __DEC64_MANT_DIG__ 16
+#define __DEC64_MIN_EXP__ (-382)
+#define __DEC64_MAX_EXP__ 385
+#define __DEC64_MIN__ 1E-383DD
+#define __DEC64_MAX__ 9.999999999999999E384DD
+#define __DEC64_EPSILON__ 1E-15DD
+#define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+#define __DEC128_MANT_DIG__ 34
+#define __DEC128_MIN_EXP__ (-6142)
+#define __DEC128_MAX_EXP__ 6145
+#define __DEC128_MIN__ 1E-6143DL
+#define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+#define __DEC128_EPSILON__ 1E-33DL
+#define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+#define __REGISTER_PREFIX__ 
+#define __USER_LABEL_PREFIX__ 
+#define __GNUC_STDC_INLINE__ 1
+#define __NO_INLINE__ 1
+#define __STRICT_ANSI__ 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_16 1
+#define __GCC_ATOMIC_BOOL_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+#define __GCC_ATOMIC_INT_LOCK_FREE 2
+#define __GCC_ATOMIC_LONG_LOCK_FREE 2
+#define __GCC_ATOMIC_LLONG_LOCK_FREE 2
+#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+#define __GCC_ATOMIC_POINTER_LOCK_FREE 2
+#define __GCC_HAVE_DWARF2_CFI_ASM 1
+#define __PRAGMA_REDEFINE_EXTNAME 1
+#define __SSP__ 1
+#define __SIZEOF_INT128__ 16
+#define __SIZEOF_WCHAR_T__ 4
+#define __SIZEOF_WINT_T__ 4
+#define __SIZEOF_PTRDIFF_T__ 8
+#define __amd64 1
+#define __amd64__ 1
+#define __x86_64 1
+#define __x86_64__ 1
+#define __ATOMIC_HLE_ACQUIRE 65536
+#define __ATOMIC_HLE_RELEASE 131072
+#define __core_avx2 1
+#define __core_avx2__ 1
+#define __tune_core_avx2__ 1
+#define __code_model_small__ 1
+#define __MMX__ 1
+#define __SSE__ 1
+#define __SSE2__ 1
+#define __SSE3__ 1
+#define __SSSE3__ 1
+#define __SSE4_1__ 1
+#define __SSE4_2__ 1
+#define __AES__ 1
+#define __PCLMUL__ 1
+#define __AVX__ 1
+#define __AVX2__ 1
+#define __FMA__ 1
+#define __ABM__ 1
+#define __BMI__ 1
+#define __BMI2__ 1
+#define __LZCNT__ 1
+#define __POPCNT__ 1
+#define __FSGSBASE__ 1
+#define __RDRND__ 1
+#define __F16C__ 1
+#define __FXSR__ 1
+#define __XSAVE__ 1
+#define __XSAVEOPT__ 1
+#define __SSE_MATH__ 1
+#define __SSE2_MATH__ 1
+#define __gnu_linux__ 1
+#define __linux 1
+#define __linux__ 1
+#define __unix 1
+#define __unix__ 1
+#define __ELF__ 1
+#define __DECIMAL_BID_FORMAT__ 1
+# 1 "<command-line>"
+#define _GNU_SOURCE 1
+#define COMPILEDWITHC11 1
+#define ROSCONSOLE_BACKEND_LOG4CXX 1
+#define ROS_BUILD_SHARED_LIBS 1
+#define ROS_PACKAGE_NAME "orbslam_client"
+#define ___CIDR_IGNORE_DEFINITIONS_START 1
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 19 "/usr/include/stdc-predef.h" 3 4
+#define _STDC_PREDEF_H 1
+# 41 "/usr/include/stdc-predef.h" 3 4
+#define __STDC_IEC_559__ 1
+
+
+
+
+
+
+
+#define __STDC_IEC_559_COMPLEX__ 1
+
+
+
+
+#define __STDC_ISO_10646__ 201103L
+
+
+#define __STDC_NO_THREADS__ 1
+# 1 "<command-line>" 2
+# 1 "/tmp/compiler-file"
+#define ___CIDR_IGNORE_DEFINITIONS_END 
+
+
+
+
+#define __has_attribute(x) 0
+# 1306 "/tmp/compiler-file"
+____CIDR_test_query_attribute->enable_if=0
+
+
+
+
+____CIDR_test_query_attribute->swift_error=0
+
+
+
+
+____CIDR_test_query_attribute->vectorcall=0
+
+
+
+
+____CIDR_test_query_attribute->ms_struct=0
+
+
+
+
+____CIDR_test_query_attribute->swift_private=0
+
+
+
+
+____CIDR_test_query_attribute->param_typestate=0
+
+
+
+
+____CIDR_test_query_attribute->unavailable=0
+
+
+
+
+____CIDR_test_query_attribute->deprecated=0
+
+
+
+
+____CIDR_test_query_attribute->upper=0
+
+
+
+
+____CIDR_test_query_attribute->objc_returns_inner_pointer=0
+
+
+
+
+____CIDR_test_query_attribute->type_visibility=0
+
+
+
+
+____CIDR_test_query_attribute->no_sanitize_undefined=0
+
+
+
+
+____CIDR_test_query_attribute->objc_bridge=0
+
+
+
+
+____CIDR_test_query_attribute->stdcall=0
+
+
+
+
+____CIDR_test_query_attribute->acquire_capability=0
+
+
+
+
+____CIDR_test_query_attribute->ns_returns_retained=0
+
+
+
+
+____CIDR_test_query_attribute->bnd_variable_size=0
+
+
+
+
+____CIDR_test_query_attribute->set_typestate=0
+
+
+
+
+____CIDR_test_query_attribute->objc_method_family=0
+
+
+
+
+____CIDR_test_query_attribute->objc_protocol_requires_explicit_implementation=0
+
+
+
+
+____CIDR_test_query_attribute->aligned=0
+
+
+
+
+____CIDR_test_query_attribute->may_alias=0
+
+
+
+
+____CIDR_test_query_attribute->ext_vector_type=0
+
+
+
+
+____CIDR_test_query_attribute->ms_hook_prologue=0
+
+
+
+
+____CIDR_test_query_attribute->ibaction=0
+
+
+
+
+____CIDR_test_query_attribute->lower=0
+
+
+
+
+____CIDR_test_query_attribute->alloc_size=0
+
+
+
+
+____CIDR_test_query_attribute->nothrow=0
+
+
+
+
+____CIDR_test_query_attribute->cdecl=0
+
+
+
+
+____CIDR_test_query_attribute->objc_requires_super=0
+
+
+
+
+____CIDR_test_query_attribute->stack_protect=0
+
+
+
+
+____CIDR_test_query_attribute->gnu_inline=0
+
+
+
+
+____CIDR_test_query_attribute->nocommon=0
+
+
+
+
+____CIDR_test_query_attribute->objc_arc_weak_reference_unavailable=0
+
+
+
+
+____CIDR_test_query_attribute->unused=0
+
+
+
+
+____CIDR_test_query_attribute->internal_linkage=0
+
+
+
+
+____CIDR_test_query_attribute->regparm=0
+
+
+
+
+____CIDR_test_query_attribute->shared=0
+
+
+
+
+____CIDR_test_query_attribute->designated_init=0
+
+
+
+
+____CIDR_test_query_attribute->type_tag_for_datatype=0
+
+
+
+
+____CIDR_test_query_attribute->objc_designated_initializer=0
+
+
+
+
+____CIDR_test_query_attribute->bnd_instrument=0
+
+
+
+
+____CIDR_test_query_attribute->availability=0
+
+
+
+
+____CIDR_test_query_attribute->hot=0
+
+
+
+
+____CIDR_test_query_attribute->nonnull=0
+
+
+
+
+____CIDR_test_query_attribute->weak=0
+
+
+
+
+____CIDR_test_query_attribute->gcc_struct=0
+
+
+
+
+____CIDR_test_query_attribute->interrupt_handler=0
+
+
+
+
+____CIDR_test_query_attribute->flag_enum=0
+
+
+
+
+____CIDR_test_query_attribute->objc_root_class=0
+
+
+
+
+____CIDR_test_query_attribute->ifunc=0
+
+
+
+
+____CIDR_test_query_attribute->tls_model=0
+
+
+
+
+____CIDR_test_query_attribute->assume_aligned=0
+
+
+
+
+____CIDR_test_query_attribute->format_arg=0
+
+
+
+
+____CIDR_test_query_attribute->malloc=0
+
+
+
+
+____CIDR_test_query_attribute->sentinel=0
+
+
+
+
+____CIDR_test_query_attribute->no_address_safety_analysis=0
+
+
+
+
+____CIDR_test_query_attribute->carries_dependency=0
+
+
+
+
+____CIDR_test_query_attribute->release_capability=0
+
+
+
+
+____CIDR_test_query_attribute->pointer_with_type_tag=0
+
+
+
+
+____CIDR_test_query_attribute->leaf=0
+
+
+
+
+____CIDR_test_query_attribute->ns_returns_not_retained=0
+
+
+
+
+____CIDR_test_query_attribute->swift_name=0
+
+
+
+
+____CIDR_test_query_attribute->release_shared_capability=0
+
+
+
+
+____CIDR_test_query_attribute->consumable=0
+
+
+
+
+____CIDR_test_query_attribute->fastcall=0
+
+
+
+
+____CIDR_test_query_attribute->no_sanitize_address=0
+
+
+
+
+____CIDR_test_query_attribute->force_align_arg_pointer=0
+
+
+
+
+____CIDR_test_query_attribute->reentrant=0
+
+
+
+
+____CIDR_test_query_attribute->transparent_union=0
+
+
+
+
+____CIDR_test_query_attribute->target_clones=0
+
+
+
+
+____CIDR_test_query_attribute->no_reorder=0
+
+
+
+
+____CIDR_test_query_attribute->warn_unused_result=0
+
+
+
+
+____CIDR_test_query_attribute->sseregparm=0
+
+
+
+
+____CIDR_test_query_attribute->section=0
+
+
+
+
+____CIDR_test_query_attribute->used=0
+
+
+
+
+____CIDR_test_query_attribute->try_acquire_shared_capability=0
+
+
+
+
+____CIDR_test_query_attribute->flatten=0
+
+
+
+
+____CIDR_test_query_attribute->mode=0
+
+
+
+
+____CIDR_test_query_attribute->iboutletcollection=0
+
+
+
+
+____CIDR_test_query_attribute->either=0
+
+
+
+
+____CIDR_test_query_attribute->sysv_abi=0
+
+
+
+
+____CIDR_test_query_attribute->optimize=0
+
+
+
+
+____CIDR_test_query_attribute->interrupt=0
+
+
+
+
+____CIDR_test_query_attribute->noinline=0
+
+
+
+
+____CIDR_test_query_attribute->warning=0
+
+
+
+
+____CIDR_test_query_attribute->dllexport=0
+
+
+
+
+____CIDR_test_query_attribute->externally_visible=0
+
+
+
+
+____CIDR_test_query_attribute->objc_requires_property_definitions=0
+
+
+
+
+____CIDR_test_query_attribute->visibility=0
+
+
+
+
+____CIDR_test_query_attribute->bnd_legacy=0
+
+
+
+
+____CIDR_test_query_attribute->scalar_storage_order=0
+
+
+
+
+____CIDR_test_query_attribute->wakeup=0
+
+
+
+
+____CIDR_test_query_attribute->format=0
+
+
+
+
+____CIDR_test_query_attribute->alloc_align=0
+
+
+
+
+____CIDR_test_query_attribute->constructor=0
+
+
+
+
+____CIDR_test_query_attribute->destructor=0
+
+
+
+
+____CIDR_test_query_attribute->no_instrument_function=0
+
+
+
+
+____CIDR_test_query_attribute->align_value=0
+
+
+
+
+____CIDR_test_query_attribute->dllimport=0
+
+
+
+
+____CIDR_test_query_attribute->cleanup=0
+
+
+
+
+____CIDR_test_query_attribute->try_acquire_capability=0
+
+
+
+
+____CIDR_test_query_attribute->no_sanitize_memory=0
+
+
+
+
+____CIDR_test_query_attribute->objc_runtime_name=0
+
+
+
+
+____CIDR_test_query_attribute->thiscall=0
+
+
+
+
+____CIDR_test_query_attribute->no_sanitize=0
+
+
+
+
+____CIDR_test_query_attribute->no_split_stack=0
+
+
+
+
+____CIDR_test_query_attribute->noclone=0
+
+
+
+
+____CIDR_test_query_attribute->acquire_shared_capability=0
+
+
+
+
+____CIDR_test_query_attribute->test_typestate=0
+
+
+
+
+____CIDR_test_query_attribute->const=0
+
+
+
+
+____CIDR_test_query_attribute->critical=0
+
+
+
+
+____CIDR_test_query_attribute->argument_with_type_tag=0
+
+
+
+
+____CIDR_test_query_attribute->selectany=0
+
+
+
+
+____CIDR_test_query_attribute->returns_nonnull=0
+
+
+
+
+____CIDR_test_query_attribute->cold=0
+
+
+
+
+____CIDR_test_query_attribute->error=0
+
+
+
+
+____CIDR_test_query_attribute->pure=0
+
+
+
+
+____CIDR_test_query_attribute->vector_size=0
+
+
+
+
+____CIDR_test_query_attribute->ms_abi=0
+
+
+
+
+____CIDR_test_query_attribute->noreturn=0
+
+
+
+
+____CIDR_test_query_attribute->returns_twice=0
+
+
+
+
+____CIDR_test_query_attribute->common=0
+
+
+
+
+____CIDR_test_query_attribute->noplt=0
+
+
+
+
+____CIDR_test_query_attribute->noduplicate=0
+
+
+
+
+____CIDR_test_query_attribute->alias=0
+
+
+
+
+____CIDR_test_query_attribute->ns_consumed_self=0
+
+
+
+
+____CIDR_test_query_attribute->packed=0
+
+
+
+
+____CIDR_test_query_attribute->amdgpu_num_vgpr=0
+
+
+
+
+____CIDR_test_query_attribute->always_inline=0
+
+
+
+
+____CIDR_test_query_attribute->return_typestate=0
+
+
+
+
+____CIDR_test_query_attribute->pcs=0
+
+
+
+
+____CIDR_test_query_attribute->callable_when=0
+
+
+
+
+____CIDR_test_query_attribute->no_sanitize_thread=0
+
+
+
+
+____CIDR_test_query_attribute->optnone=0
+
+
+
+
+____CIDR_test_query_attribute->objc_boxable=0
+
+
+
+
+____CIDR_test_query_attribute->iboutlet=0
+
+
+
+
+____CIDR_test_query_attribute->target=0
+
+
+
+
+____CIDR_test_query_attribute->no_icf=0
+
+
+
+
+____CIDR_test_query_attribute->objc_precise_lifetime=0
+
+
+
+
+____CIDR_test_query_attribute->ns_consumed=0
+
+
+
+
+____CIDR_test_query_attribute->artificial=0
+
+
+
+
+____CIDR_test_query_attribute->amdgpu_num_sgpr=0
+
+
+
+
+____CIDR_test_query_attribute->weakref=0
+
+
+
+
+____CIDR_test_query_attribute->callee_pop_aggregate_return=0
+
+
+
+
+____CIDR_test_query_attribute->overloadable=0

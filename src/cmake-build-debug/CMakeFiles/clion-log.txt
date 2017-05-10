@@ -1,0 +1,79 @@
+/usr/bin/X11/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lifu/catkin_ws/src
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/lifu/catkin_ws/src/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/lifu/catkin_ws/devel;/opt/ros/indigo
+-- This workspace overlays: /home/lifu/catkin_ws/devel;/opt/ros/indigo
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/lifu/catkin_ws/src/cmake-build-debug/test_results
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.6.18
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 2 packages in topological order:
+-- ~~  - orbslam_client
+-- ~~  - orbslam_server
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'orbslam_client'
+-- ==> add_subdirectory(orbslam_client)
+Build type: Debug
+-- Performing Test COMPILER_SUPPORTS_CXX11
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- Using flag -std=c++11.
+-- Using these message generators: gencpp;genlisp;genpy
+-- Found Eigen3: /usr/include/eigen3 (Required is at least version "3.1.0") 
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   serialization
+--   system
+--   filesystem
+-- +++ processing catkin package: 'orbslam_server'
+-- ==> add_subdirectory(orbslam_server)
+-- Using these message generators: gencpp;genlisp;genpy
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   serialization
+--   system
+--   filesystem
+-- orbslam_server: 0 messages, 6 services
+-- Found ODB: /usr/local/bin/odb  found components:  pgsql 
+-- ODB_HEADERS : /home/lifu/catkin_ws/src/orbslam_server/include/person.h;/home/lifu/catkin_ws/src/orbslam_server/include/Data_KeyFrame.h;include/Data_MapPoint.h;include/Serialization.h;include/Data_TopoMapPoint.h;include/Data_TopoKeyFrame.h
+-- ARGN: FILES;/home/lifu/catkin_ws/src/orbslam_server/include/person.h;/home/lifu/catkin_ws/src/orbslam_server/include/Data_KeyFrame.h;include/Data_MapPoint.h;include/Serialization.h;include/Data_TopoMapPoint.h;include/Data_TopoKeyFrame.h;DB;pgsql;GENERATE_QUERY;GENERATE_SESSION
+-- ARGC: 12
+-- ARGV: orbslam_server_SOURCES;FILES;/home/lifu/catkin_ws/src/orbslam_server/include/person.h;/home/lifu/catkin_ws/src/orbslam_server/include/Data_KeyFrame.h;include/Data_MapPoint.h;include/Serialization.h;include/Data_TopoMapPoint.h;include/Data_TopoKeyFrame.h;DB;pgsql;GENERATE_QUERY;GENERATE_SESSION
+-- ARGV0: orbslam_server_SOURCES
+-- Configuring done
+WARNING: Target "orbslam_client" requests linking to directory "/usr/local/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "orbslam_client" requests linking to directory "/usr/local/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "orbslam_client_node_mono_tum" requests linking to directory "/usr/local/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "orbslam_client" requests linking to directory "/usr/local/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "orbslam_client" requests linking to directory "/usr/local/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "orbslam_client_node_rgbd_tum" requests linking to directory "/usr/local/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "orbslam_client_node_stereo_kitti" requests linking to directory "/usr/local/lib".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /home/lifu/catkin_ws/src/cmake-build-debug
