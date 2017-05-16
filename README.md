@@ -16,9 +16,18 @@ The framework of **M2SLAM** is shown above, which includes the front end and the
 
 ## 1. Prerequisites
 
+### 1.0 requirements
+  * ubuntu 14.04
+  * ROS indigo
+  * ORBSLAM2 1.0.0
+  * boost
+  * ODB 2.4.0 or later
+  * PostgreSQL 9.4 or later
+  * PostGIS 2.2 or later
+
 ### 1.1 ROS install
 
-Inatall ROS according to the instructions in [ROS wiki](http://wiki.ros.org/indigo/Installation).
+Inatall ROS indigo according to the instructions in [ROS wiki](http://wiki.ros.org/indigo/Installation).
 
 ### 1.2 ORBSLAM2 and its dependencies
 
@@ -117,7 +126,7 @@ rosrun orbslam_servcer orbslam_servcer
 ```
 ### 2.4.3 run orbslam_client in different datasets
 
-1. for TUM RGB-D datasets
+1. run TUM RGB-D datasets
 
 Download a sequence from http://vision.in.tum.de/data/datasets/rgbd-dataset/download and uncompress it.
 
@@ -133,7 +142,7 @@ Execute the following command. Change `TUMX.yaml` to TUM1.yaml,TUM2.yaml or TUM3
 rosrun ORB_SLAM2_client_TUM_rgbd ORB_SLAM2_client_TUM_rgbd PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE ONLINE_RECTIFICATION
 ```
 
-2. for KITTI datasets
+2. run KITTI datasets
 
 Download the dataset (grayscale images) from http://www.cvlibs.net/datasets/kitti/eval_odometry.php
 
