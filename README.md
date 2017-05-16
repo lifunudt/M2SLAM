@@ -11,7 +11,8 @@
 
 <img src="https://github.com/lifunudt/M2SLAM/blob/master/image/framework.png" alt="M2SLAM" height="180" />
 
-The framework of **M2SLAM** is shown above, which includes the front end and the server end. We implement the front end based on **ORB_SLAM2[1-2]** by extending its tracking, local mapping, and loop closing module, and adding one novel memory managing module. The server end publishes data services for map data storage and accessing.
+The framework of **M2SLAM** is shown above, which includes the front end and the server end. We implement the front end based on **[ORB_SLAM2[1-2]](https://github.com/raulmur/ORB_SLAM2)** by extending its tracking, local mapping, and loop closing module, and adding one novel memory managing module. The server end publishes data services for map data storage and accessing.
+### 0. Related Publications
 
 ### 1. License
 
