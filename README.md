@@ -18,6 +18,16 @@ The framework of **M2SLAM** is shown above, which includes the front end and the
 
 ## 2. Building and Run M2SLAM
 
+### 2.1 ORBSLAM2 and its dependencies
+
+### 2.2 Boost library install
+
+### 2.2 ODB environment build
+
+### 2.3 PostGIS install
+
+### 2.4 ROS install
+
 ## Reference
 [1] Mur-Artal R, Montiel J M M, Tardos J D. ORB-SLAM: a versatile and accurate monocular SLAM system[J]. IEEE Transactions on Robotics, 2015, 31(5): 1147-1163.
 
