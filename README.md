@@ -92,12 +92,56 @@ psql -U m2slam_usr -h 127.0.0.1 -d m2slam_db < Data_TopoMapPoint.sql
 psql -U m2slam_usr -h 127.0.0.1 -d m2slam_db < Data_KeyFrame.sql
 psql -U m2slam_usr -h 127.0.0.1 -d m2slam_db < Data_MapPoint.sql
 ```
-You can verify that the tables have been create in the database **m2slam_db**.
+You can verify that the tables have been created in the database **m2slam_db**.
 
 ### 2.3 build M2SLAM
 
+The M2SLAM runs as the ROS package. and the M2SLAM *src* directory should be the ROS package directory, *catkin_src/*.
+We use catkin tool to organize the M2SLAM packages, orbslam_client and orbslam_servcer.
+
+Terminal in the *catkin_src/* directory.
+```
+catkin_make
+catkin_install
+```
+
 ### 2.4 run M2SLAM
 
+#### 2.4.1 start ros core
+```
+ros core
+```
+#### 2.4.2 start orbslam_servcer
+```
+rosrun orbslam_servcer orbslam_servcer
+```
+### 2.4.3 run orbslam_client in different datasets
+
+1. for TUM RGB-D datasets
+
+Download a sequence from http://vision.in.tum.de/data/datasets/rgbd-dataset/download and uncompress it.
+
+Associate RGB images and depth images using the python script [associate.py](http://vision.in.tum.de/data/datasets/rgbd-dataset/tools). We already provide associations for some of the sequences in *Examples/RGB-D/associations/*. You can generate your own associations file executing:
+
+```
+python associate.py PATH_TO_SEQUENCE/rgb.txt PATH_TO_SEQUENCE/depth.txt > associations.txt
+```
+
+Execute the following command. Change `TUMX.yaml` to TUM1.yaml,TUM2.yaml or TUM3.yaml for freiburg1, freiburg2 and freiburg3 sequences respectively. Change `PATH_TO_SEQUENCE_FOLDER`to the uncompressed sequence folder. Change `ASSOCIATIONS_FILE` to the path to the corresponding associations file.  
+
+```
+rosrun ORB_SLAM2_client_TUM_rgbd ORB_SLAM2_client_TUM_rgbd PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE ONLINE_RECTIFICATION
+```
+
+2. for KITTI datasets
+
+Download the dataset (grayscale images) from http://www.cvlibs.net/datasets/kitti/eval_odometry.php
+
+Execute the following command. Change `KITTIX.yaml`to KITTI00-02.yaml, KITTI03.yaml or KITTI04-12.yaml for sequence 0 to 2, 3, and 4 to 12 respectively. Change `PATH_TO_DATASET_FOLDER` to the uncompressed dataset folder. Change `SEQUENCE_NUMBER` to 00, 01, 02,.., 11.
+
+```
+rosrun ORB_SLAM2_client_KITTI_stereo ORB_SLAM2_client_KITTI_stereo Vocabulary/ORBvoc.txt Examples/Stereo/KITTIX.yaml PATH_TO_DATASET_FOLDER/dataset/sequences/SEQUENCE_NUMBER
+```
 
 ## Reference
 [1] Mur-Artal R, Montiel J M M, Tardos J D. ORB-SLAM: a versatile and accurate monocular SLAM system[J]. IEEE Transactions on Robotics, 2015, 31(5): 1147-1163.
