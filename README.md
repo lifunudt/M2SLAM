@@ -20,8 +20,14 @@ The framework of **M2SLAM** is shown above, which includes the front end and the
 
 ### 2.1 ORBSLAM2 and its dependencies
 
-### 2.2 Boost library install
+Our M2SLAM system is build on the foundation of [ORB_SLAM2[1-2]](https://github.com/raulmur/ORB_SLAM2). You should follow the instructions provided by ORB_SLAM2 build its dependencies. We do not list here.
 
+### 2.2 Boost library install
+We use boost library to serialize and deserialize the data.
+We can install boost library using the following instruction in terminal.
+```bash
+sudo apt-get instal libboost-dev
+```
 ### 2.2 ODB environment build
 
 ### 2.3 PostGIS install
