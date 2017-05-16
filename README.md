@@ -15,7 +15,9 @@ The framework of **M2SLAM** is shown above, which includes the front end and the
 ### 0. Related Publications
 
 ### 1. License
+M2SLAM is released under a [GPLv3 license](https://github.com/lifunudt/M2SLAM/blob/master/License-gpl.txt).
 
+For a closed-source version of M2SLAM for commercial purposes, please contact the authors.
 ### 2. Prerequisites
 
 ### 3. Building and Run M2SLAM
