@@ -16,23 +16,21 @@ The framework of **M2SLAM** is shown above, which includes the front end and the
 
 ## 1. Prerequisites
 
-## 2. Building and Run M2SLAM
-
-### 2.1 ORBSLAM2 and its dependencies
+### 1.1 ORBSLAM2 and its dependencies
 
 Our M2SLAM system is build on the foundation of [ORB_SLAM2(https://github.com/raulmur/ORB_SLAM2). You should follow the instructions provided by ORB_SLAM2 build its dependencies. We do not list here.
 
-### 2.2 Boost library install
+### 1.2 Boost library install
 We use boost library to serialize and deserialize the data.
 We can install boost library using the following instruction in terminal.
 ```bash
 sudo apt-get instal libboost-dev
 ```
-### 2.2 ODB environment build
+### 1.3 ODB environment build
 
 We use [ODB](http://www.codesynthesis.com/products/odb/) to solve the issue of mapping a C++ object to a record in a database table, instead of using SQL.
 
-You can use the ODB packages in src/orbslam_client/Thirdparty/package or download from the [ODB fficial website](http://www.codesynthesis.com/products/odb/).
+You can use the ODB packages in *src/orbslam_client/Thirdparty/package* or download from the [ODB official website](http://www.codesynthesis.com/products/odb/).
 
 Unpack the packages and build the ODB according to the **INSTALL** file in their dirs.
 
@@ -47,7 +45,7 @@ sudo apt-get install gcc-4.8-plugin-dev
 
 > error: libcutl is not found
 
-Download the source code of the libcutl from the [office website](https://curl.haxx.se/libcurl/).
+Download the source code of the **libcutl** from its [office website](https://curl.haxx.se/libcurl/).
 
 Install the package according to the **INSTALL** file.
 
@@ -61,9 +59,16 @@ echo "/usr/local/bin" >> /etc/ld.so.conf
 sudo ldconfig
 ```
 
-### 2.3 PostGIS install
+### 1.4 PostGIS install
 
-### 2.4 ROS install
+```
+sudo apt-get install postgresql-9.4
+sudo apt-get install postgresql-9.4-postgis-2.2
+```
+
+### 1.5 ROS install
+
+## 2. Building and Run M2SLAM
 
 ## Reference
 [1] Mur-Artal R, Montiel J M M, Tardos J D. ORB-SLAM: a versatile and accurate monocular SLAM system[J]. IEEE Transactions on Robotics, 2015, 31(5): 1147-1163.
