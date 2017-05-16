@@ -6,11 +6,12 @@
 **Current version:** 1.0.0
 
 ### introduction
-M2SLAM is a novel visual SLAM system with memory management to overcome two major challenges in reducing memory con- sumption of visual SLAM: efficient map data scheduling between the memory and the external storage, and map data persistence method (i.e., the data out- lives the process that created it). We redesign the framework of a visual SLAM system to contain a SLAM front end and a database server end. The front end maintains a localization and a mapping process, as well as map data scheduling between the memory and the database. We propose a map data scheduling method to organize map data considering the local spatial character among keyframes. The server end provides data services from a spatial database for global map data storage and accessing.
+
+**M2SLAM** is a novel visual SLAM system with **memory management** to overcome two major challenges in reducing memory con- sumption of visual SLAM: efficient map data scheduling between the memory and the external storage, and map data persistence method (i.e., the data out- lives the process that created it). We redesign the framework of a visual SLAM system to contain a SLAM front end and a database server end. The front end maintains a localization and a mapping process, as well as map data scheduling between the memory and the database. We propose a map data scheduling method to organize map data considering the local spatial character among keyframes. The server end provides data services from a spatial database for global map data storage and accessing.
 
 <img src="https://github.com/lifunudt/M2SLAM/blob/master/image/framework.png" alt="M2SLAM" height="180" />
 
-The framework of M2SLAM is shown above. The framework of M2SLAM is shown in Fig. 1, which includes the front end and the server end. We implement the front end based on ORB_SLAM2[1-2] by extending its tracking, local mapping, and loop closing module, and adding one novel memory managing module. The server end publishes data services for map data storage and accessing.
+The framework of **M2SLAM** is shown above, which includes the front end and the server end. We implement the front end based on **ORB_SLAM2[1-2]** by extending its tracking, local mapping, and loop closing module, and adding one novel memory managing module. The server end publishes data services for map data storage and accessing.
 
 ### 1. License
 
